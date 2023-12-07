@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Oxygen');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-grey {
+    color: #ddd;
+}
+
+.input-custom {
+    height: 30px;
+    text-align: center;
+    border: none;
+}
+.input_back_hidden{
+    background: none;
+    color: #fff;
+    border: none;
+}
+input[type="text"]:disabled{
+    background-color:#4E85AD;
+    color: #fff;
+    border: none;
+    cursor: text;
+}
+
+/* students index page header */
+.navbar {
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
+.navbar,
+.navbar-default {
+    background: #269;
+    min-height: 70px;
+}
+.navbar-default .navbar-brand{
+    color: #ccc;
+    padding: 5px 10px;
+}
+.navbar-default .navbar-brand:hover{
+    color: #fff;
+}
+.navbar-default .navbar-brand img{
+    width: 60px;
+    height: 60px;
+}
+.navbar-default .navbar-text a {
+    color: #eee;
+    text-decoration: none;
+}
+.navbar-text {
+    float: left;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #ccc;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #000;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #000;
+    background-color: #e7e7e7;
+}
+.navbar-form{
+    margin-top: 10px;
+}
+.dropdown-menu .divider {
+    height: 1px;
+    margin: 0px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+    padding: 10px 0;
+}
+.menu {
+	margin-top: 9px;
+}
+.custom-menu{
+    margin-top: 7px;
+}
+/*content*/
+.content{
+    background: url('../images/background.jpg');
+    background-size: cover;
+    position: relative;
+    min-height: 88vh;
+}
+.body_content{
+    min-height: 88vh;
+}
+.logo_dept{
+    margin-top: 100px;
+}
+.logo_dept img{
+    width: 100%;
+}
+.logo_dept h3{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 5px 5px 10px #444;
+}
+.registration{
+    background: rgba(34, 102, 153, .8);
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.registration h3{
+    font-size: 25px;
+}
+.registration form label{
+    color: aliceblue;
+}
+.registration-form {
+    background: rgba(34, 102, 153, .8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    color: #fff;
+    padding: 30px;
+}
+
+.registration-form h1 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+}
+
+.registration-form h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.registration-form p {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.registration-form p a {
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.registration-form p a:hover {
+    color: #fff;
+}
+
+.registration-form input[type='submit'] {
+    margin-right: 10px;
+}
+
+
+.widget{
+    background: #ddd;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.widget img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.widget p {
+    margin: 5px 0;
+    line-height: 1.7;
+    letter-spacing: .5px;
+}
+
+/* ---- course page start ---- */
+
+.widget h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0;
+    background: #269;
+}
+.widget h4 {
+    font-weight: bold;
+}
+
+.table .thead-inverse {
+    background: #292B2C;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.table tr{
+}
+.table tr a {
+    text-decoration: none;
+    color: #000;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+    background-color: #DDD;
+}
+/*students_update*/
+.update-form{
+    margin: 0 auto;
+}
+
+/*teacher update*/
+.update-form{
+    margin: 50px;
+}
+
+
+
+
+/*add teacher*/
+.add_teacher{
+    position: relative;
+    height: 800px;
+}
+/*all teacher*/
+.teacher{
+    width: 100%;
+    background: #ddd;
+    border-radius: 10px;
+    margin: 30px 0;
+    padding: 25px;
+    text-align: center;
+}
+.teacher img{
+    border: 7px solid #aaa;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 100%;
+    width: 200px;
+    height: 200px;
+}
+.teacher h3 a{
+    color: #000;
+}
+.teacher h3 a:hover{
+    text-decoration: none;
+    color: #269;
+}
+/* posts page customization*/
+.post_wrapper{
+    margin: 15px 0;
+}
+.post{
+    background: #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.post h3{
+    text-transform: uppercase;
+    color: #269;
+    font-weight: bold;
+}
+
+.post h3 span{
+    color: #444;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-left: 3px solid #444;
+    padding-left: 7px;
+    margin-left: 7px;
+}
+
+.post p span{
+    color: #269;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.post p small{
+    
+}
+.post article{
+    margin-bottom: 20px;
+}
+.post button{
+    margin-bottom: 10px;
+}
+.fileClass{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/*slider part*/
+.slider{
+    width: 100%;
+    margin-top: 15px;
+}
+/*incourse part*/
+.incourse_wrapper{
+    margin: 30px;
+}
+.incourse_form{
+    background: rgba(34, 102, 153, .8);
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px;
+    margin-top: 15px;
+}
+/* admin part */
+.admin-profile{
+    background: #fff;
+}
+.admin-image{
+    width: 200px;
+    height: 200px;
+    background: #ddd;
+    outline: 5px solid #777;
+    margin-left: 5px;
+}
+.admin-text {
+	margin-top: 50px;
+}
+.admin-text h2{
+    font-weight: bold;
+}
+.admin-text article{
+    font-size: 18px;
+    color: #575757;
+    text-align: justify;
+}
+.admin-text article q{
+    font-weight: bold;
+}
+/*footer part start here*/
+footer{
+    background: #269;
+    padding-top: 15px;
+    color: aliceblue;
+}
