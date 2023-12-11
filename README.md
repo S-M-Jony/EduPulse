@@ -1,1 +1,1 @@
-# Department-Management-Syatem
+# EduPulse
